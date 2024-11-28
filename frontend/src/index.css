@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Artial, sans-serif; */
+  font-family: sans-serif;
+}
+.User-Scroll {
+  scrollbar-width: none !important;
+}
+
+.User-Scroll::-webkit-scrollbar {
+  display: none !important;
+}
