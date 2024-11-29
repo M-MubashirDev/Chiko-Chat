@@ -52,7 +52,7 @@ export async function Login(req, resp) {
     resp.status(500).json({ message: "server error" });
   }
 }
-function Logout(req, resp) {
+export function Logout(req, resp) {
   try {
     resp.clearCookie("jwt");
     resp.status(201).json({ message: "logout successfully" });
